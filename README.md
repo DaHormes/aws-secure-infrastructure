@@ -149,6 +149,7 @@ This architecture directly addresses enterprise cloud needs:
 ---
 
 ## 📁 Project Structure
+```bash
 aws-secure-infrastructure/
 ├── main.tf                      # Main infrastructure code
 ├── variables.tf                 # Input variables
@@ -157,7 +158,7 @@ aws-secure-infrastructure/
 ├── scripts/
 │   └── web-server-init.sh      # Web server bootstrap script
 └── README.md                    
-
+```
 
 
 ---
