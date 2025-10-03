@@ -213,7 +213,7 @@ aws-secure-infrastructure/
    terraform destroy
 ```
    - Only do this when you are done with project.
-   - If it is just a portfolio project like mine, then destroy after documentation to avoid incuring cost.'''
+   - If it is just a portfolio project like mine, then destroy after documentation to avoid incuring cost.
 
 
 
