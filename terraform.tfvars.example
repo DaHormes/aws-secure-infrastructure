@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and fill in your values
+# DO NOT commit terraform.tfvars to Git (it contains secrets)
+
+aws_region         = "us-east-1"
+project_name       = "secure-infrastructure"
+environment        = "production"
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]
+instance_type      = "t2.micro"
+my_ip              = "YOUR_IP_HERE/32"  # Get from https://whatismyipaddress.com
+db_username        = "dbadmin"
+db_password        = "ChangeThisPassword123!"  # Use a strong password
