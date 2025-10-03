@@ -256,18 +256,18 @@ aws-secure-infrastructure/
 ---
 
 ## 📈 Project Metrics
-**Infrastructure Components:** 30+ AWS resources
-**Deployment Time:** ~12 minutes (fully automated)
-**Code Lines:** ~800 lines of Terraform
-**Security Layers:** 3-tier architecture
-**High Availability Zones:** 2
-**Estimated Monthly Cost:** $15-20 (with free tier: $0-5)
+- **Infrastructure Components:** 30+ AWS resources
+- **Deployment Time:** ~12 minutes (fully automated)
+- **Code Lines:** ~800 lines of Terraform
+- **Security Layers:** 3-tier architecture
+- **High Availability Zones:** 2
+- **Estimated Monthly Cost:** $15-20 (with free tier: $0-5)
 ---
 
 ## 📞 Contact & Links
-**Author:** Gideon Ofumaduadike
-**LinkedIn:** linkedin.com/in/gideon-ofu
-**Email:** ofugideon@gmail.com
+- **Author:** Gideon Ofumaduadike
+- **LinkedIn:** linkedin.com/in/gideon-ofu
+- **Email:** ofugideon@gmail.com
 
 **I am very much open to collaborations and contracts. Let's connect and discuss how help scale your cloud infrastructure.**
 
@@ -276,7 +276,7 @@ aws-secure-infrastructure/
 ### 📝 License
 This project is open source and available for educational purposes.
 
-###🙏 Acknowledgments
+**🙏 Acknowledgments**
 I built this as a portfolio project to demonstrate cloud governance and automation capabilities for enterprise cloud operations roles, specifically for a Cloud & Systems Operations role was I interested in.
 This project showcases the ability to rapidly adapt platform-specific knowledge (Azure → AWS) while maintaining strong cloud engineering fundamentals.
 
