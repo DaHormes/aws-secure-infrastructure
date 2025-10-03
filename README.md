@@ -8,6 +8,21 @@ Production-ready AWS infrastructure demonstrating cloud governance, security bes
 **Date:** [Current Date]  
 **Purpose:** Portfolio project demonstrating AWS and Terraform proficiency for Cloud Operations Leadership roles
 
+
+## 🎯 PROJECT IMPACT (Non-Technical)
+
+I built this AWS infrastructure project to demonstrate my ability to rapidly adapt to across cloud platforms while maintaining enterprise-grade security and governance standards. Within three days, I designed and deployed a production-ready, multi-tier architecture using Terraform that showcases:
+1. **Security governance** - Implementing least-privilege IAM policies and defense-in-depth network architecture
+2. **Automation at scale** - Complete Infrastructure as Code enabling 12-minute deployments
+3. **Operational resilience** - Multi-AZ design with centralized monitoring and logging
+4. **Business thinking** - Every technical decision maps to real business outcomes: faster deployments, lower costs, better audit trails
+
+This project proves that strong cloud engineering fundamentals—networking, security, identity management—transfer seamlessly across platforms. Coming from Azure, I was able to apply those principles in AWS while learning platform-specific implementations.
+Most importantly, it demonstrates the governance mindset essential for cloud operations leadership: building systems that are secure by default, auditable by design, and scalable without manual intervention.
+
+
+#### Continue Reading Below For More Technical Details ####
+
 ---
 
 ## 🏗️ Architecture
