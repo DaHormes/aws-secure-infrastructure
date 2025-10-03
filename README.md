@@ -176,50 +176,65 @@ aws-secure-infrastructure/
 ```bash
    git clone [your-repo-url]
    cd aws-secure-infrastructure
+   ```
 
-   #Configure variables
+
+2. **Configure variables**
+```bash
    cp terraform.tfvars.example terraform.tfvars
    # Edit terraform.tfvars with your own values
+   ```
 
-   #Initialize Terraform
+3. **Initialize Terraform**
+```bash
    terraform init
-
-   #Review plan
+   ```
+4. **Review plan**
+```bash
    terraform plan
-
-   #Deploy
-   terraform apply
-
-   #Access web server
-   #Get the URL from output of cmd:
-   terraform output web_server_url
-   #Open in a browser
-
-   #Destroy
-   terraform destroy
-   #Only do this when you are done with project.
-   #If it is just a portfolio project like mine, then destroy after documentation to avoid incuring cost.'''
 ```
 
 
+5. **Deploy**
+```bash
+   terraform apply
+```
 
-##💡 Key Learnings##
-###Technical Insights###
+
+6. **Access web server**
+   - Get the URL from output of cmd:
+```bash 
+   terraform output web_server_url
+```
+   - Open in a browser
+
+7. **Destroy (when finished**
+```bash 
+   terraform destroy
+```
+   - Only do this when you are done with project.
+   - If it is just a portfolio project like mine, then destroy after documentation to avoid incuring cost.'''
+
+
+
+
+##💡 Key Learnings
+###Technical Insights
 
 - **Platform-Agnostic Cloud Principles:** Coming from Azure/M365, I discovered that core networking, security, and governance concepts translate seamlessly across cloud providers. VPCs are similar to VNets, security groups mirror NSGs, and IAM follows the same least-privilege principles as Azure RBAC.
 - **Infrastructure as Code Power:** Terraform's declarative approach eliminated configuration drift entirely. Every resource is version-controlled, peer-reviewable, and reproducible—critical for enterprise operations.
 - **Security by Design:** Implementing defense-in-depth from the start was easier than retrofitting security. Each tier has its own security group, and default-deny policies prevented accidental exposure.
 - **Managed Services Value:** Using RDS instead of self-hosted PostgreSQL eliminated hours of database administration while providing better reliability, automated backups, and enhanced monitoring.
 
-###Operational Insights###
+###Operational Insights
 
 - **Multi-AZ is Essential:** Even in a demo project, spanning availability zones proved the resilience thinking required for production workloads.
 - **Tagging Strategy Matters:** Consistent tagging (Project, Environment, ManagedBy) enabled instant resource identification and cost allocation visibility.
 - **Documentation is Infrastructure:** The README and architecture diagram are as important as the code itself—they enable team collaboration and knowledge transfer.
 
 
-##🔄 Future Enhancements##
-###Phase 2 (Production Readiness):###
+##🔄 Future Enhancements
+###Phase 2 (Production Readiness):
 
  Implement Application Load Balancer for web tier
  Add Auto Scaling Groups for compute elasticity
@@ -228,7 +243,7 @@ aws-secure-infrastructure/
  Add AWS WAF for web application firewall
  Configure CloudWatch alarms and SNS notifications
 
-###Phase 3 (Advanced Features):###
+###Phase 3 (Advanced Features):
 
  Implement VPC Flow Logs for network traffic analysis
  Add AWS Systems Manager for patch management
@@ -237,7 +252,7 @@ aws-secure-infrastructure/
  Add Route 53 for DNS management with health checks
 
 
-##📈 Project Metrics##
+##📈 Project Metrics
 **Infrastructure Components:** 30+ AWS resources
 **Deployment Time:** ~12 minutes (fully automated)
 **Code Lines:** ~800 lines of Terraform
@@ -245,7 +260,7 @@ aws-secure-infrastructure/
 **High Availability Zones:** 2
 **Estimated Monthly Cost:** $15-20 (with free tier: $0-5)
 
-##📞 Contact & Links##
+##📞 Contact & Links
 **Author:** Gideon Ofumaduadike
 **LinkedIn:** linkedin.com/in/gideon-ofu
 **Email:** ofugideon@gmail.com
@@ -253,10 +268,10 @@ aws-secure-infrastructure/
 **I am very much open to collaborations and contracts. Let's connect and discuss how help scale your cloud infrastructure.**
 
 
-###📝 License###
+###📝 License
 This project is open source and available for educational purposes.
 
-###🙏 Acknowledgments###
+###🙏 Acknowledgments
 I built this as a portfolio project to demonstrate cloud governance and automation capabilities for enterprise cloud operations roles, specifically for a Cloud & Systems Operations role was I interested in.
 This project showcases the ability to rapidly adapt platform-specific knowledge (Azure → AWS) while maintaining strong cloud engineering fundamentals.
 
