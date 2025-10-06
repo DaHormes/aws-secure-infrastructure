@@ -26,7 +26,7 @@ Most importantly, it demonstrates the governance mindset essential for cloud ope
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](screenshots/architecture-diagram.png)
+![Architecture Diagram](screenshots/architecture_diagram.png)
 
 ### Components
 
