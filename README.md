@@ -5,7 +5,6 @@
 Production-ready AWS infrastructure demonstrating cloud governance, security best practices, and Infrastructure as Code principles for scalable application deployment.
 
 **Built by me:** Gideon Ofumaduadike  
-**Date:** [Current Date]  
 **Purpose:** Portfolio project demonstrating AWS and Terraform proficiency for Cloud Operations Leadership roles
 
 
